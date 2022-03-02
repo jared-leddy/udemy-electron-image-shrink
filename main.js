@@ -21,4 +21,5 @@ function createMainWindow() {
   mainWindow.loadFile('./app/index.html');
 }
 
+// when the app is ready for use, load the window
 app.on('ready', createMainWindow);
