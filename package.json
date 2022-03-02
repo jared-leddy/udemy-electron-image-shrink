@@ -4,7 +4,8 @@
   "description": "Image compression desktop application.",
   "main": "main.js",
   "scripts": {
-    "start:dev": "electron ."
+    "start": "electron .",
+    "start:dev": "nodemon --exec electron ."
   },
   "repository": {
     "type": "git",
