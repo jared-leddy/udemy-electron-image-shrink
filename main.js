@@ -18,10 +18,6 @@ function createMainWindow() {
     resizable: isEnvDev,
   });
 
-  // protocols required
-  //   mainWindow.loadURL(`file://${__dirname}/app/index.html`);
-
-  // protocools not required
   mainWindow.loadFile('./app/index.html');
 }
 
