@@ -12,8 +12,8 @@ let mainWindow;
 function createMainWindow() {
   mainWindow = new BrowserWindow({
     title: 'Image Shrink',
-    width: 500,
-    height: 600,
+    width: isEnvDev ? 1200 : 500,
+    height: isEnvDev ? 1000 : 600,
     icon: `${__dirname}/assets/icons/Icon_256x256.png`,
   });
 
