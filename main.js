@@ -15,6 +15,7 @@ function createMainWindow() {
     width: isEnvDev ? 1200 : 500,
     height: isEnvDev ? 1000 : 600,
     icon: `${__dirname}/assets/icons/Icon_256x256.png`,
+    resizable: isEnvDev,
   });
 
   // protocols required
