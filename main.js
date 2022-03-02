@@ -23,3 +23,8 @@ function createMainWindow() {
 
 // when the app is ready for use, load the window
 app.on('ready', createMainWindow);
+
+// when all windows are closed, quit the app
+app.on('window-all-closed', () => {
+  app.quit();
+});
