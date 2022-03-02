@@ -5,6 +5,8 @@ const { app, BrowserWindow } = require('electron');
 process.env.NODE_ENV = 'development';
 
 const isEnvDev = process.env.NODE_ENV !== 'production' ? true : false;
+const isPlatformMac = process.platform !== 'darwin' ? true : false;
+
 let mainWindow;
 
 function createMainWindow() {
