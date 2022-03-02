@@ -1,6 +1,8 @@
 // npm modules
 const { app, BrowserWindow } = require('electron');
 
+// set node env
+process.env.NODE_ENV = 'development';
 let mainWindow;
 
 function createMainWindow() {
