@@ -4,7 +4,7 @@
   "description": "Image compression desktop application.",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:dev": "electron ."
   },
   "repository": {
     "type": "git",
