@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/jared-leddy/udemy-electron-image-shrink#readme",
   "devDependencies": {
-    "electron": "^17.1.0"
+    "electron": "^17.1.0",
+    "nodemon": "^2.0.15"
   }
 }
