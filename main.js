@@ -3,6 +3,8 @@ const { app, BrowserWindow } = require('electron');
 
 // set node env
 process.env.NODE_ENV = 'development';
+
+const isEnvDev = process.env.NODE_ENV !== 'production' ? true : false;
 let mainWindow;
 
 function createMainWindow() {
