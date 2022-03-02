@@ -28,3 +28,10 @@ app.on('ready', createMainWindow);
 app.on('window-all-closed', () => {
   app.quit();
 });
+
+// when app is activated, check for open windows
+app.on('activate', () => {
+  if (BrowserWindow.getAllWindows().length === 0) {
+    createMainWindow();
+  }
+});
